@@ -1,0 +1,1 @@
+console.log(process.env.LD_LIBRARY_PATH);
