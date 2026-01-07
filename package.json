@@ -18,8 +18,7 @@
   },
   "pkg": {
     "scripts": [
-      "index.js",
-      "node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js"
+      "index.js"
     ],
     "assets": [
       "node_modules/@pinggy/pinggy/**/*",
