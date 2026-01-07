@@ -1,12 +1,12 @@
 {
-  "name": "randomtest",
+  "name": "pinggy",
   "version": "1.0.0",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "pkg . --output dist/pinggy-app -d"
+    "build": "pkg . -d"
   },
   "keywords": [],
   "author": "",
@@ -17,12 +17,18 @@
     "@yao-pkg/pkg": "^6.11.0"
   },
   "pkg": {
-    "scripts": ["index.js", "options.js"],
-    "assets": [
-      "node_modules/@pinggy/pinggy/lib/addon.node",
-      "node_modules/@pinggy/pinggy/lib/libpinggy.so"
+    "scripts": [
+      "index.js",
+      "node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js"
     ],
-    "targets": ["node20-linux-x64"],
+    "assets": [
+      "node_modules/@pinggy/pinggy/**/*",
+      "test.txt",
+      "node_modules/uuid/**/*"
+    ],
+    "targets": [
+      "node20-linux-x64"
+    ],
     "outputPath": "dist"
   }
 }

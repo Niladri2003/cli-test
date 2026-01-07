@@ -1,0 +1,442 @@
+[2026-01-06 20:08:51] [ERROR] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:08:51] [INFO] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker exited with code 1
+[2026-01-06 20:16:10] [ERROR] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:16:10] [INFO] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker exited with code 1
+[2026-01-06 20:17:41] [ERROR] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:17:41] [INFO] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker exited with code 1
+[2026-01-06 20:19:57] [ERROR] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:19:57] [INFO] [/snapshot/niladri/Desktop/Pinggy/sdk-nodejs/dist/index.cjs] TunnelWorker exited with code 1
+[2026-01-06 20:26:54] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:26:54] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:29:39] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:29:39] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:39:39] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:39:39] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:44:41] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:44:41] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:45:51] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:45:51] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:47:59] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:533:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 20:47:59] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:540:14] TunnelWorker exited with code 1
+[2026-01-06 20:53:28] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:534:14] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:53:28] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:541:14] TunnelWorker exited with code 1
+[2026-01-06 20:53:58] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:534:14] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:53:58] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:541:14] TunnelWorker exited with code 1
+[2026-01-06 20:59:42] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:534:14] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 20:59:42] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:541:14] TunnelWorker exited with code 1
+[2026-01-06 21:03:01] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:535:14] TunnelWorker crashed:
+Error: Error: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/worker/tunnel-worker.js'
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1207:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1950:46)
+    at Function._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at MessagePort.<anonymous> (node:internal/main/worker_thread:192:26)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+[2026-01-06 21:03:01] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:542:14] TunnelWorker exited with code 1
+[2026-01-06 21:07:13] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:535:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:07:13] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:542:14] TunnelWorker exited with code 1
+[2026-01-06 21:10:45] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:536:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:10:45] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:543:14] TunnelWorker exited with code 1
+[2026-01-06 21:12:56] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:12:56] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:17:30] [ERROR] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: ReferenceError: __filename is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at getImportMetaUrl (file:///home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js:26:80)
+    at file:///home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js:27:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2026-01-06 21:17:30] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:18:43] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:18:43] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:21:15] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:21:15] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:25:29] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:25:29] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:31:23] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:31:23] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:35:54] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:539:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:35:54] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:546:14] TunnelWorker exited with code 1
+[2026-01-06 21:39:39] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:550:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:39:39] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-06 21:41:38] [ERROR] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:550:14] TunnelWorker crashed:
+Error: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.js' imported from /home/niladri/Desktop/Pinggy/randomTest/
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at node:internal/modules/run_main:174:35
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:11)
+[2026-01-06 21:41:38] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-06 21:42:33] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 21:42:33] [DEBUG] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 21:42:33] [INFO] [/snapshot/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 21:52:08] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 21:52:08] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 21:52:08] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 21:52:09] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:9148d138-5823-4f3a-b1bd-b44af966a8b8
+[2026-01-06 21:52:09] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"9148d138-5823-4f3a-b1bd-b44af966a8b8","target":"tunnel","method":"start","args":[]}
+[2026-01-06 21:52:09] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1238:16] Tunnel connected, starting authentication monitoring...
+[2026-01-06 21:52:11] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1203:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://ktxti-103-175-169-1.a.free.pinggy.link","https://ktxti-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://ktxti-103-175-169-1.a.free.pinggy.link\",\"https://ktxti-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://ktxti-103-175-169-1.a.free.pinggy.link","https://ktxti-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 21:52:11] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1178:18] Tunnel established: 4, http://ktxti-103-175-169-1.a.free.pinggy.link, https://ktxti-103-175-169-1.a.free.pinggy.link
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"9148d138-5823-4f3a-b1bd-b44af966a8b8","result":["http://ktxti-103-175-169-1.a.free.pinggy.link","https://ktxti-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 21:52:11] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:3ed0cc8e-f27a-4d48-a74d-2a1c6268ed44
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:9148d138-5823-4f3a-b1bd-b44af966a8b8
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"3ed0cc8e-f27a-4d48-a74d-2a1c6268ed44","result":["http://ktxti-103-175-169-1.a.free.pinggy.link","https://ktxti-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"3ed0cc8e-f27a-4d48-a74d-2a1c6268ed44","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-06 21:52:11] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:3ed0cc8e-f27a-4d48-a74d-2a1c6268ed44
+[2026-01-06 21:52:51] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:7f982a18-9ed7-4f08-97de-0d6bbefa9c7c
+[2026-01-06 21:52:51] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"7f982a18-9ed7-4f08-97de-0d6bbefa9c7c","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-06 21:52:51] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1334:18] Tunnel stopped successfully.
+[2026-01-06 21:52:51] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:7f982a18-9ed7-4f08-97de-0d6bbefa9c7c
+[2026-01-06 21:52:51] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"7f982a18-9ed7-4f08-97de-0d6bbefa9c7c","result":true}
+[2026-01-06 21:52:51] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-06 23:12:30] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:12:30] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:12:30] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:12:30] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:936b4601-5071-4a58-aacd-c8e199ef7d8a
+[2026-01-06 23:12:30] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"936b4601-5071-4a58-aacd-c8e199ef7d8a","target":"tunnel","method":"start","args":[]}
+[2026-01-06 23:12:31] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1238:16] Tunnel connected, starting authentication monitoring...
+[2026-01-06 23:12:32] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1203:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://jdlcb-103-175-169-1.a.free.pinggy.link","https://jdlcb-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://jdlcb-103-175-169-1.a.free.pinggy.link\",\"https://jdlcb-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-06 23:12:32] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1178:18] Tunnel established: 4, http://jdlcb-103-175-169-1.a.free.pinggy.link, https://jdlcb-103-175-169-1.a.free.pinggy.link
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://jdlcb-103-175-169-1.a.free.pinggy.link","https://jdlcb-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"936b4601-5071-4a58-aacd-c8e199ef7d8a","result":["http://jdlcb-103-175-169-1.a.free.pinggy.link","https://jdlcb-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:12:32] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:b9dbcbda-6ae2-4993-9541-c21f6377d9ae
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:936b4601-5071-4a58-aacd-c8e199ef7d8a
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"b9dbcbda-6ae2-4993-9541-c21f6377d9ae","result":["http://jdlcb-103-175-169-1.a.free.pinggy.link","https://jdlcb-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"b9dbcbda-6ae2-4993-9541-c21f6377d9ae","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-06 23:12:32] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:b9dbcbda-6ae2-4993-9541-c21f6377d9ae
+[2026-01-06 23:13:12] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:085f3084-2fcd-41f4-b294-6b56594570a5
+[2026-01-06 23:13:12] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"085f3084-2fcd-41f4-b294-6b56594570a5","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-06 23:13:12] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1334:18] Tunnel stopped successfully.
+[2026-01-06 23:13:12] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:085f3084-2fcd-41f4-b294-6b56594570a5
+[2026-01-06 23:13:12] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"085f3084-2fcd-41f4-b294-6b56594570a5","result":true}
+[2026-01-06 23:13:12] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-06 23:13:24] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:13:24] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:13:24] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:13:24] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:d2bc38f5-87c2-4fd3-986c-7a66a1de1879
+[2026-01-06 23:13:24] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"d2bc38f5-87c2-4fd3-986c-7a66a1de1879","target":"tunnel","method":"start","args":[]}
+[2026-01-06 23:13:25] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1238:16] Tunnel connected, starting authentication monitoring...
+[2026-01-06 23:13:27] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1203:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://fghmp-103-175-169-1.a.free.pinggy.link","https://fghmp-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://fghmp-103-175-169-1.a.free.pinggy.link\",\"https://fghmp-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-06 23:13:27] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1178:18] Tunnel established: 4, http://fghmp-103-175-169-1.a.free.pinggy.link, https://fghmp-103-175-169-1.a.free.pinggy.link
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://fghmp-103-175-169-1.a.free.pinggy.link","https://fghmp-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:13:27] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:e1517aa1-393a-4cc1-970e-c97a87e8eab5
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"d2bc38f5-87c2-4fd3-986c-7a66a1de1879","result":["http://fghmp-103-175-169-1.a.free.pinggy.link","https://fghmp-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:d2bc38f5-87c2-4fd3-986c-7a66a1de1879
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"e1517aa1-393a-4cc1-970e-c97a87e8eab5","result":["http://fghmp-103-175-169-1.a.free.pinggy.link","https://fghmp-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"e1517aa1-393a-4cc1-970e-c97a87e8eab5","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-06 23:13:27] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:e1517aa1-393a-4cc1-970e-c97a87e8eab5
+[2026-01-06 23:13:36] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:03c3c6cc-f8d3-45e0-97c9-ba4e36b53722
+[2026-01-06 23:13:36] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"03c3c6cc-f8d3-45e0-97c9-ba4e36b53722","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-06 23:13:36] [INFO] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1334:18] Tunnel stopped successfully.
+[2026-01-06 23:13:36] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:03c3c6cc-f8d3-45e0-97c9-ba4e36b53722
+[2026-01-06 23:13:36] [DEBUG] [/home/niladri/Desktop/Pinggy/randomTest/node_modules/@pinggy/pinggy/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"03c3c6cc-f8d3-45e0-97c9-ba4e36b53722","result":true}
+[2026-01-06 23:14:05] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:14:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:14:05] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:16:28] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:16:28] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:16:28] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:16:41] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:16:41] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:16:41] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:18:15] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:18:15] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:18:15] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:26:29] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:26:29] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:26:29] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:26:29] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:c062446d-f465-4c05-a364-6606ad7d8283
+[2026-01-06 23:26:29] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"c062446d-f465-4c05-a364-6606ad7d8283","target":"tunnel","method":"start","args":[]}
+[2026-01-06 23:26:29] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1238:16] Tunnel connected, starting authentication monitoring...
+[2026-01-06 23:26:31] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1203:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://pltdq-103-175-169-1.a.free.pinggy.link","https://pltdq-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://pltdq-103-175-169-1.a.free.pinggy.link\",\"https://pltdq-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-06 23:26:31] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1178:18] Tunnel established: 4, http://pltdq-103-175-169-1.a.free.pinggy.link, https://pltdq-103-175-169-1.a.free.pinggy.link
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://pltdq-103-175-169-1.a.free.pinggy.link","https://pltdq-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:c062446d-f465-4c05-a364-6606ad7d8283
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"c062446d-f465-4c05-a364-6606ad7d8283","result":["http://pltdq-103-175-169-1.a.free.pinggy.link","https://pltdq-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:26:31] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:f96aaafa-b248-4ec2-b6ff-c374717156f7
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"f96aaafa-b248-4ec2-b6ff-c374717156f7","result":["http://pltdq-103-175-169-1.a.free.pinggy.link","https://pltdq-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"f96aaafa-b248-4ec2-b6ff-c374717156f7","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-06 23:26:31] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:f96aaafa-b248-4ec2-b6ff-c374717156f7
+[2026-01-06 23:27:11] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:40791888-3523-4390-a299-0d7b04012d18
+[2026-01-06 23:27:11] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"40791888-3523-4390-a299-0d7b04012d18","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-06 23:27:11] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1334:18] Tunnel stopped successfully.
+[2026-01-06 23:27:11] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:40791888-3523-4390-a299-0d7b04012d18
+[2026-01-06 23:27:11] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"40791888-3523-4390-a299-0d7b04012d18","result":true}
+[2026-01-06 23:27:11] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-06 23:41:01] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:451:20] TunnelWorker ready.
+[2026-01-06 23:41:01] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-06 23:41:01] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:543:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-06 23:41:01] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:3d76b29a-15e7-4fa2-bc01-50a23812ceb0
+[2026-01-06 23:41:01] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"3d76b29a-15e7-4fa2-bc01-50a23812ceb0","target":"tunnel","method":"start","args":[]}
+[2026-01-06 23:41:02] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1238:16] Tunnel connected, starting authentication monitoring...
+[2026-01-06 23:41:05] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1203:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://zqiqt-103-175-169-1.a.free.pinggy.link","https://zqiqt-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://zqiqt-103-175-169-1.a.free.pinggy.link\",\"https://zqiqt-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-06 23:41:05] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1178:18] Tunnel established: 4, http://zqiqt-103-175-169-1.a.free.pinggy.link, https://zqiqt-103-175-169-1.a.free.pinggy.link
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1564:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://zqiqt-103-175-169-1.a.free.pinggy.link","https://zqiqt-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"3d76b29a-15e7-4fa2-bc01-50a23812ceb0","result":["http://zqiqt-103-175-169-1.a.free.pinggy.link","https://zqiqt-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:41:05] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:ee6345e3-d0ee-4e65-b58d-edc7c7174596
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:3d76b29a-15e7-4fa2-bc01-50a23812ceb0
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"ee6345e3-d0ee-4e65-b58d-edc7c7174596","result":["http://zqiqt-103-175-169-1.a.free.pinggy.link","https://zqiqt-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"ee6345e3-d0ee-4e65-b58d-edc7c7174596","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-06 23:41:05] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:ee6345e3-d0ee-4e65-b58d-edc7c7174596
+[2026-01-06 23:41:45] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:488:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:c9b85d63-fd9d-43db-b99f-32ec6e133e1a
+[2026-01-06 23:41:45] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1497:14] [Worker] method invoke request recived inside worker {"type":"call","id":"c9b85d63-fd9d-43db-b99f-32ec6e133e1a","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-06 23:41:45] [INFO] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1334:18] Tunnel stopped successfully.
+[2026-01-06 23:41:45] [DEBUG] [/tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.cjs:1576:12] [Worker]Sending response back to main thread. ID:c9b85d63-fd9d-43db-b99f-32ec6e133e1a
+[2026-01-06 23:41:45] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:14] [Main] Recived msg from worker {"type":"response","id":"c9b85d63-fd9d-43db-b99f-32ec6e133e1a","result":true}
+[2026-01-06 23:41:45] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:557:14] TunnelWorker exited with code 1
+[2026-01-07 11:48:36] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:436:20] TunnelWorker ready.
+[2026-01-07 11:48:36] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:509:14] [Main] Recived msg from worker {"type":"init","success":true,"error":null}
+[2026-01-07 11:48:36] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:526:18] Unknown message from worker: {"type":"init","success":true,"error":null}
+[2026-01-07 11:48:36] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:471:12] [Main] Sending method call to worker thread method:start,target:tunnel,type:call,args,Id:fe497735-0924-4495-9461-7df29d9935dd
+[2026-01-07 11:48:36] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:72:14] [Worker] method invoke request recived inside worker {"type":"call","id":"fe497735-0924-4495-9461-7df29d9935dd","target":"tunnel","method":"start","args":[]}
+[2026-01-07 11:48:38] [INFO] [file:///tmp/pinggy-sdk-cache/dist/chunk-K6OT6C3J.js:673:16] Tunnel connected, starting authentication monitoring...
+[2026-01-07 11:48:39] [INFO] [file:///tmp/pinggy-sdk-cache/dist/chunk-K6OT6C3J.js:638:18] Tunnel forwarding changed:, [{"forwardTo":"localhost:3000","mode":"http","remoteBindings":["http://thqlu-103-175-169-1.a.free.pinggy.link","https://thqlu-103-175-169-1.a.free.pinggy.link"]}]
+[2026-01-07 11:48:39] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:139:12] [Worker] Callback recived. Callbackname: tunnelForwardingChanged,data:{"message":"Tunnel forwarding changed","address":"[{\"forwardTo\":\"localhost:3000\",\"mode\":\"http\",\"remoteBindings\":[\"http://thqlu-103-175-169-1.a.free.pinggy.link\",\"https://thqlu-103-175-169-1.a.free.pinggy.link\"]}]"}
+[2026-01-07 11:48:39] [INFO] [file:///tmp/pinggy-sdk-cache/dist/chunk-K6OT6C3J.js:613:18] Tunnel established: 4, http://thqlu-103-175-169-1.a.free.pinggy.link, https://thqlu-103-175-169-1.a.free.pinggy.link
+[2026-01-07 11:48:39] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:139:12] [Worker] Callback recived. Callbackname: tunnelEstablished,data:{"message":"Tunnel established","urls":["http://thqlu-103-175-169-1.a.free.pinggy.link","https://thqlu-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-07 11:48:39] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:151:12] [Worker]Sending response back to main thread. ID:fe497735-0924-4495-9461-7df29d9935dd
+[2026-01-07 11:48:39] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:509:14] [Main] Recived msg from worker {"type":"response","id":"fe497735-0924-4495-9461-7df29d9935dd","result":["http://thqlu-103-175-169-1.a.free.pinggy.link","https://thqlu-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-07 11:48:39] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:471:12] [Main] Sending method call to worker thread method:getUrls,target:tunnel,type:call,args,Id:8072dced-54c7-4b7a-ac89-02c7520d710a
+[2026-01-07 11:48:39] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:509:14] [Main] Recived msg from worker {"type":"response","id":"8072dced-54c7-4b7a-ac89-02c7520d710a","result":["http://thqlu-103-175-169-1.a.free.pinggy.link","https://thqlu-103-175-169-1.a.free.pinggy.link"]}
+[2026-01-07 11:48:39] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:72:14] [Worker] method invoke request recived inside worker {"type":"call","id":"8072dced-54c7-4b7a-ac89-02c7520d710a","target":"tunnel","method":"getUrls","args":[]}
+[2026-01-07 11:48:39] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:151:12] [Worker]Sending response back to main thread. ID:8072dced-54c7-4b7a-ac89-02c7520d710a
+[2026-01-07 11:48:43] [INFO] [/tmp/pinggy-sdk-cache/dist/index.cjs:471:12] [Main] Sending method call to worker thread method:tunnelStop,target:tunnel,type:call,args,Id:1507d65a-01e5-458c-8c56-26a450520c64
+[2026-01-07 11:48:43] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:72:14] [Worker] method invoke request recived inside worker {"type":"call","id":"1507d65a-01e5-458c-8c56-26a450520c64","target":"tunnel","method":"tunnelStop","args":[]}
+[2026-01-07 11:48:43] [INFO] [file:///tmp/pinggy-sdk-cache/dist/chunk-K6OT6C3J.js:769:18] Tunnel stopped successfully.
+[2026-01-07 11:48:43] [DEBUG] [file:///tmp/pinggy-sdk-cache/dist/worker/tunnel-worker.js:151:12] [Worker]Sending response back to main thread. ID:1507d65a-01e5-458c-8c56-26a450520c64
+[2026-01-07 11:48:43] [DEBUG] [/tmp/pinggy-sdk-cache/dist/index.cjs:509:14] [Main] Recived msg from worker {"type":"response","id":"1507d65a-01e5-458c-8c56-26a450520c64","result":true}

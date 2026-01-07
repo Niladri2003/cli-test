@@ -2,57 +2,74 @@
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-
-// Path where the addon will be "unpacked"
-const tempDir = path.join(os.tmpdir(), 'pinggy-cli-cache');
-
-function prepareNativeAddon() {
-    if (__dirname.includes(path.sep + 'snapshot' + path.sep)) {
-        console.log('App is running in packaged mode (snapshot filesystem detected).');
-    } else {
-        console.log('App is running in normal Node.js environment (real filesystem).');
-    }
-    console.log(process.env.PKG_NATIVE_CACHE_PATH);
+async function getSDK() {
+    // If not running in pkg, just return the standard require
     if (!process.pkg) {
-        // running normally
-        console.log("Not running in pkg, skipping addon extraction.");
-        return;
-    } // Do nothing if running in normal node
+        console.log("Running in normal Node.js environment.");
+        return require('@pinggy/pinggy');
+    }
+    console.log("Running in packaged mode (pkg detected).");
 
-    if (!fs.existsSync(tempDir)) {
-        fs.mkdirSync(tempDir, { recursive: true });
+    const tempDir = path.join(os.tmpdir(), 'pinggy-sdk-cache');
+        const itemsToExtract = [
+        { 
+            src: path.join(__dirname, 'node_modules/@pinggy/pinggy'), 
+            dest: path.join(tempDir) 
+        },
+        { 
+            src: path.join(__dirname, 'node_modules/uuid'), 
+            dest: path.join(tempDir, 'node_modules/uuid') 
+        }
+    ];
+
+    // 1. Extract everything
+    for (const item of itemsToExtract) {
+        if (fs.existsSync(item.src)) {
+            extractFolder(item.src, item.dest);
+        }
     }
 
-    // This path must match the internal path in your pkg config
-    const internalLibPath = path.join(__dirname, 'node_modules/@pinggy/pinggy/lib');
-    console.log(fs.readdirSync(path.join(__dirname, 'node_modules/@pinggy/pinggy/')));
-    console.log("Internal Path:", internalLibPath, " Temp Dir:", tempDir);
-    if (fs.existsSync(internalLibPath)) {
-        const files = fs.readdirSync(internalLibPath);
-        files.forEach(file => {
-            const src = path.join(internalLibPath, file);
-            console.log("Extracting", src, "to", tempDir);
-            const dest = path.join(tempDir, file);
+    // 2. Point the OS to the extracted .so library
+    process.env.LD_LIBRARY_PATH = `${path.join(tempDir, 'lib')}:${process.env.LD_LIBRARY_PATH || ''}`;
 
-            // Only copy if it doesn't exist or you want to overwrite
-            if (!fs.existsSync(dest)) {
-                fs.writeFileSync(dest, fs.readFileSync(src));
-                // On Linux/Mac, we must ensure the extracted files are executable
-                if (process.platform !== 'win32') {
-                    fs.chmodSync(dest, 0o755);
+    // 3. Require the SDK from the REAL filesystem (tempDir)
+    // We use a dynamic path so pkg doesn't try to bundle this specific require
+    return require(path.join(tempDir, 'dist', 'index.cjs'));
+}
+
+function extractFolder(src, dest) {
+    if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+    
+    const entries = fs.readdirSync(src, { withFileTypes: true });
+
+    for (let entry of entries) {
+        const srcPath = path.join(src, entry.name);
+        const destPath = path.join(dest, entry.name);
+
+        if (entry.isDirectory()) {
+            extractFolder(srcPath, destPath);
+        } else {
+            // Avoid re-writing if file exists (performance)
+            if (!fs.existsSync(destPath)) {
+                fs.writeFileSync(destPath, fs.readFileSync(srcPath));
+                // Set executable permissions for Linux
+                if (entry.name.endsWith('.node') || entry.name.endsWith('.so') || entry.name.includes('worker')) {
+                    fs.chmodSync(destPath, 0o755);
                 }
             }
-        });
+        }
     }
 }
 
-prepareNativeAddon();
-const { pinggy, LogLevel } = require('@pinggy/pinggy');
+
+const { Worker } = require('worker_threads');
 async function main(params) {
     try {
+       const { pinggy,LogLevel } = await getSDK();
+        console.log("Dirname",__dirname);
         const args = process.argv.slice(1);
-        //pinggy.setDebugLogging(true, LogLevel.DEBUG);
-        console.log("Starting tunne", args[2]);
+        pinggy.setDebugLogging(true, LogLevel.DEBUG,"log.txt");
+        console.log("Starting tunnel", args[2]);
         const tunnelOptions = {
             forwarding: `localhost:${args[2]}`,
             webDebugger: "localhost:8100",
@@ -61,6 +78,14 @@ async function main(params) {
         const tunnel = await pinggy.createTunnel(tunnelOptions);
         await tunnel.start();
         console.log("Tunnel URLs:", await tunnel.urls());
+        const keepAlive = setInterval(() => {}, 1000);
+
+        process.on('SIGINT', async () => {
+            console.log("\nStopping tunnel...");
+            await tunnel.stop();
+            clearInterval(keepAlive);
+            process.exit(0);
+        });
         //Stop tunnel after 20 seconds
         setTimeout(() => {
             try {
