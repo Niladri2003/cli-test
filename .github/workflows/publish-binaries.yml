@@ -53,8 +53,8 @@ jobs:
         shell: bash
         run: |
           cd out
-          sha256sum pinggy-${{ matrix.target }} > pinggy-${{ matrix.target }}.sha256
-          cat pinggy-${{ matrix.target }}.sha256
+          sha256sum cli-${{ matrix.target }} > cli-${{ matrix.target }}.sha256
+          cat cli-${{ matrix.target }}.sha256
 
       - name: Upload to GitHub Release
         env:
