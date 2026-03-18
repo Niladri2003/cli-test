@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
@@ -65,13 +64,20 @@ function extractFolder(src, dest) {
 const { Worker } = require('worker_threads');
 async function main(params) {
     try {
-       const { pinggy,LogLevel } = await getSDK();
-        console.log("Dirname",__dirname);
         const args = process.argv.slice(1);
-        pinggy.setDebugLogging(true, LogLevel.DEBUG,"log.txt");
-        console.log("Starting tunnel", args[2]);
+
+        if (args[1] === "--version") {
+            const pkgPath = path.join(__dirname, "package.json");
+            const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf8"));
+            console.log(pkg.version);
+            return;
+        }
+
+        const { pinggy, LogLevel } = await getSDK();
+        console.log("Dirname", __dirname);
+        console.log("Starting tunnel", args[1]);
         const tunnelOptions = {
-            forwarding: `localhost:${args[2]}`,
+            forwarding: `localhost:${args[1]}`,
             webDebugger: "localhost:8100",
         }
 

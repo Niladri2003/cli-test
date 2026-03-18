@@ -1,0 +1,67 @@
+name: Publish binaries to GitHub Release
+
+on:
+  release:
+    types: [created]
+
+# Required for gh release upload to work
+permissions:
+  contents: write
+
+env:
+  RELEASE_TAG: ${{ github.event.release.tag_name }}
+
+jobs:
+  build:
+    name: Build ${{ matrix.target }}
+    strategy:
+      fail-fast: false   # if one platform fails, others still complete
+      matrix:
+        include:
+          # ── Linux ────────────────────────────────────────────────────
+          - target: linux-x64
+            runner: ubuntu-latest
+            pkg_target: node20-linux-x64
+
+    runs-on: ${{ matrix.runner }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'              # caches node_modules between runs — faster
+
+      - name: Install dependencies
+        run: npm ci                 # fail fast if package-lock.json is missing/out of sync
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Show output (debug)
+        shell: bash
+        run: ls -lh ./out
+
+      # ── Generate SHA-256 checksum ──────────────────────────────────
+      # The OTA updater uses this to verify the download before replacing the binary.
+
+      - name: Generate checksum (Unix)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          cd out
+          sha256sum pinggy-${{ matrix.target }} > pinggy-${{ matrix.target }}.sha256
+          cat pinggy-${{ matrix.target }}.sha256
+
+      - name: Upload to GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          for FILE in out/*; do
+            echo "Uploading $FILE..."
+            gh release upload "$RELEASE_TAG" "$FILE" --clobber
+          done
